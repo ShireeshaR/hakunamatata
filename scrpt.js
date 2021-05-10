@@ -7,7 +7,7 @@ function makeid(length) {
     }
     return result;
 }
-function allowlogin(usermail){
+function allowlogin (usermail){
     //var a = document.form.usermail.value;
     var a = document.getElementById("usermail").value;
     var b;
@@ -41,7 +41,7 @@ function allowlogin(usermail){
                         "name":"NLIT HTML Website",
                         "Program": "Platinum" // flat custom attributes
                     });
-                     window.location = "http://shireesha123.epizy.com/Index.HTML";
+                     window.location = "https://shireeshar.github.io/hakunamatata/index.html";
 
       }
     else
