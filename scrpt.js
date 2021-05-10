@@ -20,7 +20,7 @@ function allowlogin (usermail){
         
          b = a.substr(8, 3);
          alert("Logged in user id :" + b);
-            aptrinsic("identify",
+           /* aptrinsic("identify",
                     {
                         //User Fields
                         "id": b, // Required for logged in app users
@@ -40,7 +40,8 @@ function allowlogin (usermail){
                         "id":"0017F00001sOm11", //Required
                         "name":"NLIT HTML Website",
                         "Program": "Platinum" // flat custom attributes
-                    });
+                    });*/
+          
                      window.location = "https://shireeshar.github.io/hakunamatata/index.html";
 
       }
