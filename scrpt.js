@@ -13,7 +13,7 @@ function makeid(length) {
     }
     return result;
 }
-function allowlogin (usermail){
+function allowlogin(usermail){
     //var a = document.form.usermail.value;
     var a = document.getElementById("usermail").value;
     var b;
