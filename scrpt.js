@@ -1,7 +1,4 @@
-  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="s4mFo827uCboDPa2kzlZcHlH2EpOemYI";analytics.SNIPPET_VERSION="4.13.2";
-  analytics.load("s4mFo827uCboDPa2kzlZcHlH2EpOemYI");
-  analytics.page();
-  }}();
+
 
 
 function makeid(length) {
@@ -20,9 +17,7 @@ function allowlogin(usermail){
     
     if(a!= "")
     {
-        if(a == "username123@gmail.com" || a == "usernamesr@gmail.com"|| a=="username789@gmail.com" || a=="s***a@gainsight.com")
-      {
-         alert("valid User");
+       alert("valid User");
         
          b = a.substr(8, 3);
          alert("Logged in user id :" + b);
@@ -50,12 +45,10 @@ function allowlogin(usermail){
           
                      window.location = "https://shireeshar.github.io/hakunamatata/index.html";
 
-      }
-    else
-        alert("Invalid User,enter \"username123@gmail.com or username456@gmail.com or username789@gmail.com\"");
+    
     }
     else
-    alert("enter \"username123@gmail.com or username456@gmail.com or username789@gmail.com\"");
+    alert("enter your email");
 
     
       return b;
