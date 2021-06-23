@@ -1,5 +1,12 @@
 
+<!-- Gainsight PX Tag-->
+  (function(n,t,a,e,co){var i="aptrinsic";n[i]=n[i]||function(){
+      (n[i].q=n[i].q||[]).push(arguments)},n[i].p=e;n[i].c=co;
+    var r=t.createElement("script");r.async=!0,r.src=a+"?a="+e;
+    var c=t.getElementsByTagName("script")[0];c.parentNode.insertBefore(r,c)
+  })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-H5BILVZODAED-2");
 
+<!-- Gainsight PX Tag-->
 
 function makeid(length) {
     var result = '';
@@ -21,7 +28,7 @@ function allowlogin(usermail){
         
          b = a.substr(8, 3);
          alert("Logged in user id :" + b);
-           /* aptrinsic("identify",
+           aptrinsic("identify",
                     {
                         //User Fields
                         "id": b, // Required for logged in app users
@@ -41,7 +48,7 @@ function allowlogin(usermail){
                         "id":"0017F00001sOm11", //Required
                         "name":"NLIT HTML Website",
                         "Program": "Platinum" // flat custom attributes
-                    });*/
+                    });
           
                      window.location = "https://shireeshar.github.io/hakunamatata/index.html";
 
