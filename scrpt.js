@@ -6,6 +6,12 @@
   })(window,document,"https://web-sdk.aptrinsic.com/api/aptrinsic.js","AP-H5BILVZODAED-2");
 <!-- Gainsight PX Tag-->*/
 
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="pM1SyAn0A1A6n3d2FU5yGi4IHGqE6NjB";analytics.SNIPPET_VERSION="4.13.2";
+  analytics.load("pM1SyAn0A1A6n3d2FU5yGi4IHGqE6NjB");
+  analytics.page();
+  }}();
+
+
 function makeid(length) {
     var result = '';
     var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -26,9 +32,9 @@ function allowlogin(usermail){
         
          b = a.substr(8, 3);
          alert("Logged in user id :" + b);
-           analytics.identify('97980cfea0085', {
-                  email: 'gibbons@example.com',
-                  name: 'Monica Gibbons'
+           analytics.identify('9798', {
+                  email: 'gibb@example.com',
+                  name: 'Monica'
                     }),
           
                      window.location = "https://shireeshar.github.io/hakunamatata/index.html";
