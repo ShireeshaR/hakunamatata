@@ -34,7 +34,10 @@ function allowlogin(usermail){
          alert("Logged in user id :" + b);
            analytics.identify('9798', {
                   email: 'gibb@example.com',
-                  name: 'Monica'
+                  name: 'Monica',
+                  lastSeenDate: 1630419623719,
+                  role: "System",
+                  LastSeen: 1630419623719
                     }),
           
                      window.location = "https://shireeshar.github.io/hakunamatata/index.html";
