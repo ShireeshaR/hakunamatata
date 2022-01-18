@@ -37,7 +37,8 @@ function allowlogin(usermail){
         
          b = a.substr(8, 3);
          alert("Logged in user id :" + b);
-           analytics.identify('9798', {
+           aptrinsic.identify({
+                  id: 'unique-id',
                   email: 'gibb@example.com',
                   name: 'Monica',
                   lastSeenDate: 1630419623719,
